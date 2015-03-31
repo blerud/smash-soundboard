@@ -1,2 +1,2 @@
-web: python soundboard.py
+web: gunicorn soundboard:app --log-file=-
 

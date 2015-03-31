@@ -5,7 +5,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
-def index():
+def soundboard():
     data = get_sounds()
     return render_template('layout.html', data=data)
 
