@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'Fira Sans SemiBold';
+	src: url('fonts/FiraSans-SemiBold.ttf');
+}
+
+body {
+	background: #EFEFEF;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Fira Sans';
+	font-size: 36px;
+	margin: 30px;
+}
+
+div .buttonarray {
+	margin: 100 auto;
+	position: relative;
+	height: 100%;
+	clear: both;
+	width: 80%;
+	overflow: hidden;
+}
+
+div .button {
+	background: #CCCCCC;
+	display: inline-block;
+	margin: 20px;
+	width: 300px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.button h2 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: 'Fira Sans SemiBold';
+	font-size: 24px;
+}
+
